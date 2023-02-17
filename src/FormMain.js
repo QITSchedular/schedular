@@ -56,7 +56,7 @@ const FormMain = () => {
 
   useEffect(() => {
     if (loading) return;
-    if (user) navigate("/verify");
+    if (user) navigate("/sendVerification");
   }, [user, loading]);
 
   const namePattern = /^[^0-9]+$/;

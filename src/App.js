@@ -20,7 +20,7 @@ export default function App() {
     <Route path="/scheduleTime" element={<TimeSlot/>}/>
     <Route path="/scheduleTime/phoneAuthentication/" element={<PhoneOtpMain/>}/>
     <Route path="/scheduleTime/phoneAuthentication/enterDetails" element={<Form />} />
-    <Route path="/scheduleTime/phoneAuthentication/enterDetails/verify" element={<SendVerification  />}/>
+    <Route path="/sendVerification" element={<SendVerification />} />
     </Routes>
   </BrowserRouter>
     </div>
